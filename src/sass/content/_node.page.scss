@@ -1,0 +1,194 @@
+// Page
+// -----------------------------------------------------------------------------
+//@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900&display=swap');
+
+.dark-text {
+  color: $dark-color;
+}
+
+.light-text {
+  color: $light-color;
+}
+
+.section-bg {
+  background-color: $section-bg-color;
+}
+
+//header, section Build
+.header-title-decor {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+//header, section Build
+.header-text-decor {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+//h2 for sections
+.section-title-decor {
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-content-position {
+  padding: 50px 0;
+}
+
+.section-title-position {
+  margin-bottom: 50px;
+}
+
+.underlined-title {
+  width: 105px;
+  height: 5px;
+  background-color: $decoration-color;
+  margin: 20px auto;
+}
+
+.underlined-title-left {
+  width: 105px;
+  height: 5px;
+  background-color: $decoration-color;
+  margin: 20px 0;
+}
+
+//div for sections
+.section-text-decor {
+  font-size: 16px;
+  //font-weight: bold;
+}
+
+.item-title-decor {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.item-title-decor-icon {
+  @extend .item-title-decor;
+  height: 50px;
+}
+
+//item text, button, link, navbar, form
+.item-text-decor {
+  font-size: 16px;
+  margin: 30px auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.icon-wrapper {
+  width: 156px;
+  height: 156px;
+  margin: 30px auto;
+}
+
+.image-div {
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item-photo-container {
+  width: 368px;
+  height: 217px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.hover-layer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 6px 6px 0 0;
+  background-color: $decoration-color;
+  opacity: 0;
+  &:hover {
+    opacity: 0.95;
+    cursor: pointer;
+  }
+}
+
+.hover-layer-link {
+  width: 129px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  background-color: $light-color;
+  margin: 0 auto;
+  text-align: center;
+  & a {
+    color: $decoration-color;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+.commentator {
+  padding-right: 20px;
+}
+
+.commentator-text {
+  height: 150px;
+}
+
+.title-in-color {
+  color: $decoration-color
+}
+
+.comment-field {
+  background-position: left;
+  background-repeat: repeat;
+  background-size: cover;
+  padding-left: 25px;
+}
+
+.section-build {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0 100px 30px;
+}
+
+.header-button-position {
+  margin: 50px auto 200px auto;
+}
+
+.header-button {
+  width: 192px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 4px;
+  background-color: $decoration-color;
+  text-align: center;
+  &:hover {
+    cursor: pointer;
+  }
+  & a {
+    @extend .dark-text ;
+    @extend .item-text-decor;
+    text-decoration: none;
+  }
+}
+
+.section-link {
+  color: $decoration-color;
+  text-decoration: none;
+  font-weight: bold;
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  & a {
+    color: $decoration-color;
+    @extend .item-text-decor;
+    text-decoration: none;
+    //font-weight: bold;
+  }
+}
